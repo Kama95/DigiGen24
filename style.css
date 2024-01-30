@@ -6,6 +6,7 @@
     ---Quote:#e5e7eb;
     ---txtcolr:#f9faf8;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -29,5 +30,15 @@
 }
 .Navbar .logIn .SignUp, .SignIn, .faq{
     font-size: 18px;
+    color: var(---txtcolr);
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.banner .info h1 {
+    font-size: 48px;
     color: var(---txtcolr);
 }
