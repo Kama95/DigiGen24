@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,900;1,100;1,200&display=swap');
 
 :root {
-    DarkBckrnd:#1f2937;
-    Button:#3882f6;
+    ---DarkBckrnd:#1f2937;
+   ---Button:#3882f6;
     Quote:#e5e7eb;
     txtcolr:#f9faf8;
 }
 *{
     padding: 0;
     margin: 0;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+    background-color: var(---DarkBckrnd)
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.Navbar .logIn {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 30px;
+}
+.Navbar .logIn .SignUp{
+    font-size: 18px;
 }
