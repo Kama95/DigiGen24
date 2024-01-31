@@ -25,6 +25,7 @@ img {
 .Navbar{
     display: flex;
     justify-content: space-between;
+    padding:20px;
 }
 .Navbar .logIn {
     display: flex;
