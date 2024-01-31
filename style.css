@@ -17,6 +17,10 @@
    flex-direction: column;
     background-color: var(---DarkBckrnd)
 }
+img {
+    width: auto;
+    height: 5%;
+}
 
 .Navbar{
     display: flex;
