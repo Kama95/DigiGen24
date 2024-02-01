@@ -26,6 +26,10 @@ img {
     display: flex;
     justify-content: space-between;
 }
+.Navbar img {width: 150px;
+    margin-top: -20px;
+    margin-left : 20px;}
+
 .Navbar .logIn {
     display: flex;
     justify-content: space-between;
@@ -71,16 +75,20 @@ button{
     font-weight: 200;
 }
 
-.Navbar img {width: 150px;
-margin-top: -20px;
-margin-left : 20px;}
-
 .image1 {display: flex;
 justify-content: center;
 align-items: center;}
 
-.banner img{
+.banner img {
     max-width: 100%;
     height: auto;
     margin-right :300px; ;
+}
+
+.cards{display: flex;
+justify-content: center;}
+.card1 .cardOne {
+    border: 2px solid var(---Button);
+    width: 100px;
+    height: 200px;
 }
