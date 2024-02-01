@@ -25,13 +25,13 @@ img {
 .Navbar{
     display: flex;
     justify-content: space-between;
-    padding:20px;
 }
 .Navbar .logIn {
     display: flex;
     justify-content: space-between;
     width: 300px;
     margin-right: 30px;
+    padding-top: 20px;
 }
 .Navbar .logIn .SignUp, .SignIn, .faq{
     font-size: 18px;
@@ -64,3 +64,7 @@ button{
     color: var(---txtcolr);
     font-weight: 200;
 }
+
+img {width: 150px;
+margin-top: -20px;
+margin-left : 20px;}
