@@ -47,7 +47,13 @@ img {
 .banner .info h1 {
     font-size: 48px;
     color: var(---txtcolr);
+    width: 500px;
 }
+.banner .info{
+    margin: 20px 200px;
+    width: 500px;
+}
+
 p{
     color: var(---txtcolr);
     font-size: 18px;
@@ -65,6 +71,16 @@ button{
     font-weight: 200;
 }
 
-img {width: 150px;
+.Navbar img {width: 150px;
 margin-top: -20px;
 margin-left : 20px;}
+
+.image1 {display: flex;
+justify-content: center;
+align-items: center;}
+
+.banner img{
+    width: 50%;
+    height: auto;
+    margin-right :300px; ;
+}
