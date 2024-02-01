@@ -40,7 +40,7 @@ img {
 
 .banner{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 80px;
     margin-bottom: 100px;
 }
@@ -80,7 +80,7 @@ justify-content: center;
 align-items: center;}
 
 .banner img{
-    width: 50%;
+    max-width: 100%;
     height: auto;
     margin-right :300px; ;
 }
