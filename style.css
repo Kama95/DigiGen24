@@ -149,5 +149,9 @@ padding: 10px;}
 .quote p{
     color: var(---DarkBckrnd);
     width: 50%;
-
+}
+span {
+    font-weight: bold;
+    margin: 20px;
+    margin-top: ;
 }
