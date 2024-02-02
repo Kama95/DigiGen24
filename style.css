@@ -166,4 +166,10 @@ align-items: center;}
     width: 60%;
     background-color: var(---Button);
     margin: 50px;
+display: flex;
+justify-content: space-around;
+border-radius: 10px;
 }
+
+
+
