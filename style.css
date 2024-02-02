@@ -65,7 +65,7 @@ p{
     margin-top: 30px;
 }
 
-button{
+button.firstButton{
     background-color: var(---Button);
     padding: 10px 22px;
     border: none;
@@ -85,7 +85,9 @@ align-items: center;}
     margin-right :300px; ;
 }
 
-
+.InfoSection {
+    margin: 50px 0
+}
 .InfoSection h1 {
 text-align: center;
 margin: 50px 0;
@@ -117,4 +119,19 @@ align-items: center;}
 
 .card1 p{font-size: 18px;
 color: var(---DarkBckrnd);
-text-align: center;}
+text-align: center;
+margin: 10px;
+padding: 10px;}
+
+.card1 a{
+    text-decoration: none;
+    
+}
+.card1 button{
+    border: 2px solid var(---Button);
+    padding: 10px;
+    border-radius: 10px;
+}
+.card1 button:hover{
+    background-color: var(---Button);
+}
