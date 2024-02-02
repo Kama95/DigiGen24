@@ -85,8 +85,10 @@ align-items: center;}
     margin-right :300px; ;
 }
 
-.InfoSection{
-    margin-top: 300px;
+
+.InfoSection h1 {
+text-align: center;
+margin: 50px 0;
 }
 
 .cards{display: flex;
