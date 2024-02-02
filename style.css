@@ -149,9 +149,21 @@ padding: 10px;}
 .quote p{
     color: var(---DarkBckrnd);
     width: 50%;
+    margin: 120px;
 }
 span {
     font-weight: bold;
     margin: 20px;
     margin-top: ;
+}
+
+
+.footerContainer{display: flex;
+justify-content: center;
+align-items: center;}
+
+.callToAction {
+    width: 60%;
+    background-color: var(---Button);
+    margin: 50px;
 }
