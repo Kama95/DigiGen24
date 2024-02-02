@@ -89,6 +89,8 @@ align-items: center;}
 .InfoSection h1 {
 text-align: center;
 margin: 50px 0;
+text-transform: uppercase;
+font-size: 32px;
 }
 
 .cards{display: flex;
@@ -110,3 +112,9 @@ align-items: center;}
     height: 100%;
     border-radius: 8px;
 }
+
+.card1 h2 {font-size: 22px}
+
+.card1 p{font-size: 18px;
+color: var(---DarkBckrnd);
+text-align: center;}
