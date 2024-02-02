@@ -139,3 +139,15 @@ padding: 10px;}
 .card1 button:hover{
     background-color: var(---Button);
 }
+
+.quote {
+    display: flex;
+    background-color: var(---Quote);
+    justify-content: center;
+    align-items: center;
+}
+.quote p{
+    color: var(---DarkBckrnd);
+    width: 50%;
+
+}
