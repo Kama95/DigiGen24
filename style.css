@@ -12,6 +12,7 @@
     margin: 0;
 }
 
+body{font-family:poppins;}
 .header {
    display: flex;
    flex-direction: column;
@@ -115,7 +116,10 @@ align-items: center;}
     border-radius: 8px;
 }
 
-.card1 h2 {font-size: 22px}
+.card1 h2 {font-size: 22px;
+text-transform: uppercase;
+font-weight: 600;
+margin-top: 10px;}
 
 .card1 p{font-size: 18px;
 color: var(---DarkBckrnd);
